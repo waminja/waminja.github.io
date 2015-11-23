@@ -3,6 +3,7 @@ h1{
 	color: black;
 	font-size: 50px;
 	margin-top: 10px;
+	margin-bottom: 0px;
 }
 body {
 	padding: 5px;
@@ -17,12 +18,16 @@ body {
 	font-size: 40px;
 	color: black;
 	padding: 5px;
+	margin-top: 0px;
 }
    img {
       width: 50%;
       height: auto;
       margin-bottom: 10px;
       
+   }
+   ul {
+   	  display: inline-block;
    }
  #intro {
  	text-align: center;
