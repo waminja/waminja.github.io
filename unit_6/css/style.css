@@ -1,0 +1,88 @@
+#header {
+    background-color:blue;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:50px;
+    background-color:yellow;
+    height:510px;
+    width:100px;
+    float:left;
+    padding:5 5 5 30px;
+          
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+li a {
+    color: #000;
+    padding: 8px 0 8px 0;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+/* Change the link color on hover, pseudo */
+li a:hover {
+    background-color: #555;
+    color: white;
+    padding: 10px;
+}
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding:0; 
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 25%;
+    height:480px;
+}
+#center {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 25%;
+    height: 480px;
+}
+#right {
+    background-color: lightblue;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 31%;
+    height: 480px;
+}
+
+#footer {
+   background-color:gray;
+    color:black;
+    clear:both;
+    text-align:right;
+    padding:5px;	
+    font-size: 15px; 
+    font-weight: bold;
+    height: 50px;	 
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+/*.wrapper {
+    background-color: gray;
+    width: 1190px;
+    margin: auto;
+}
+*/
